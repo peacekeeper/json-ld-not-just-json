@@ -15,13 +15,13 @@ json-ld-is-not-just-json
 
 Data Integrity signature (Change):
 
-**First Run:** [`DuEpuEptX6NLcbCF21P7e_ObZHHzTmDEK5nfKwNzzp9G3rcfwdtEMrN0upbOfEA39QNxc-lk40uU7K6_cDALAQ`](./examples/example1a.signed.jsonld)
-**Second Run:** [`ZadU_jcezNhO298exQN0rfuXQnL5WF91HnE_nJ-aGlMV2QWITZg-pc3cPm3dEPKYYnPKsFBgFshMXm3wDfRQAg`](./examples/example1b.signed.jsonld)
+**First Run:** [`QchIyphG9P3fGakQaHfzSx13u9QVr31x2JPSlJqtx125kFcYETidAJypjfkiRpYR8nfAa7JUZd8eljLMg-DZDg`](./examples/example1a.signed.jsonld)
+**Second Run:** [`n8xH4Gj-mLG9VfdMqdUxDxsY0Tbrd_gcB9qmiPC7A2UMyNwu4DbriMCo4HzBKFPMN4T789DruH611Btn2PnIBg`](./examples/example1b.signed.jsonld)
 
 JWS signature (No change):
 
-**First Run:** [`wTkLmRbZmU_bG8bchJbFMge9ojAjM9iEQW6fGVcQg7BmlCo0yo1nhEaDpVDBUeGZGbHOUw9WRCcUAOXiPWXCDg`](./examples/example1a.signed.jwt)
-**Second Run:** [`wTkLmRbZmU_bG8bchJbFMge9ojAjM9iEQW6fGVcQg7BmlCo0yo1nhEaDpVDBUeGZGbHOUw9WRCcUAOXiPWXCDg`](./examples/example1b.signed.jwt)
+**First Run:** [`Oemy6FevVedL8S-UhsIAYgYwnLCMvyUAxZYSRMN3jFYGdotOt2MG0Ucvdn7TuSkXrTks8r2F2LNVcbyHQj95Bw`](./examples/example1a.signed.jwt)
+**Second Run:** [`Oemy6FevVedL8S-UhsIAYgYwnLCMvyUAxZYSRMN3jFYGdotOt2MG0Ucvdn7TuSkXrTks8r2F2LNVcbyHQj95Bw`](./examples/example1b.signed.jwt)
 
 # Example 2
 
@@ -30,20 +30,20 @@ JWS signature (No change):
 |                         | First Run                                       | Second Run                                      | Change?   |
 |-------------------------|-------------------------------------------------|-------------------------------------------------|-----------|
 | Input document          | [example2a.input](./examples/example2a.input)   | [example2b.input](./examples/example2b.input)   | Change    |
-| JSON-LD context URL     | `https://example.com/context2/`                 | `https://example.com/context2/`                 | No change |
+| JSON-LD context URL     | `https://example.com/context2a/`                | `https://example.com/context2b/`                | No change |
 | JSON-LD context content | [context2a.jsonld](./contexts/context2a.jsonld) | [context2b.jsonld](./contexts/context2b.jsonld) | Change    |
 
 ### Results
 
 Data Integrity signature (No change):
 
-**First Run:** [`DuEpuEptX6NLcbCF21P7e_ObZHHzTmDEK5nfKwNzzp9G3rcfwdtEMrN0upbOfEA39QNxc-lk40uU7K6_cDALAQ`](./examples/example2a.signed.jsonld)
-**Second Run:** [`DuEpuEptX6NLcbCF21P7e_ObZHHzTmDEK5nfKwNzzp9G3rcfwdtEMrN0upbOfEA39QNxc-lk40uU7K6_cDALAQ`](./examples/example2b.signed.jsonld)
+**First Run:** [`QchIyphG9P3fGakQaHfzSx13u9QVr31x2JPSlJqtx125kFcYETidAJypjfkiRpYR8nfAa7JUZd8eljLMg-DZDg`](./examples/example2a.signed.jsonld)
+**Second Run:** [`QchIyphG9P3fGakQaHfzSx13u9QVr31x2JPSlJqtx125kFcYETidAJypjfkiRpYR8nfAa7JUZd8eljLMg-DZDg`](./examples/example2b.signed.jsonld)
 
 JWS signature (Change):
 
-**First Run:** [`SDVXIIW48FjeVFLPU6uf3lDEJe_DUfV_iR031kTJHW4PQ_JNHxgDOjd3UW37GxXF_3iwkgkP_5q-AKVt39RyAA`](./examples/example2a.signed.jwt)
-**Second Run:** [`7uyXiPMT4cBjPyT5DMvUg1NHKfEP-b5bYlakVar4afrZoRrsUYC8Ochu0zHGQOWbnQ09dPtEFHO7ixFxWZtaCQ`](./examples/example2b.signed.jwt)
+**First Run:** [`TOXXNqWdUt-s26Qi31ZfQxw96dH8pSyzx5ptlzIhTH3i09rJlnHZ2I1dcCQFHuwxvnEsU7qPqTfv6nYVuowaDw`](./examples/example2a.signed.jwt)
+**Second Run:** [`ZGC7SmO0wcEjfbXR_08N8tgec3gGnl0njisJ98pl_Ry6zg9jd-AZFUpnnFwmvLD6o7OQyVGpIbHQGHZ0ixajCA`](./examples/example2b.signed.jwt)
 
 # About
 

@@ -1,11 +1,11 @@
 {
-  "@context" : [ "https://www.w3.org/2018/credentials/v1", "https://example.com/context2/" ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1", "https://example.com/context2b/" ],
   "type" : [ "VerifiableCredential", "ExampleCredential" ],
-  "issuer" : "did:indy:sovrin:WRfXPg8dantKVubE3HX8pw",
+  "issuer" : "did:key:z6MkiFrSeF18nmrmJEftEHMnKCtCSkWh6kxUB99ycstTpoaw",
   "issuanceDate" : "2023-09-30T22:33:56Z",
   "credentialSubject" : {
     "type" : "ExampleSubject",
-    "id" : "did:key:z6MkoX6ucCPChSbbAFAcM8uqSnjfdBaHdhmKLy1hLBuWov9o#z6MkoX6ucCPChSbbAFAcM8uqSnjfdBaHdhmKLy1hLBuWov9o",
+    "id" : "did:key:z6MkweNp1NV2KnU9EUAb9dWvPTYUPxFkMYX9AKTtx5HGaEzL",
     "firstName" : "John",
     "familyName" : "Smith",
     "gender" : "Male",
