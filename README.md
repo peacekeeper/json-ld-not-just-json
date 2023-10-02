@@ -30,7 +30,7 @@ JWS signature (No change):
 |                         | First Run                                       | Second Run                                      | Change?   |
 |-------------------------|-------------------------------------------------|-------------------------------------------------|-----------|
 | Input document          | [example2a.input](./examples/example2a.input)   | [example2b.input](./examples/example2b.input)   | Change    |
-| JSON-LD context URL     | `https://example.com/context2a/`                | `https://example.com/context2b/`                | No change |
+| JSON-LD context URL     | `https://example.com/context2a/`                | `https://example.com/context2b/`                | Change    |
 | JSON-LD context content | [context2a.jsonld](./contexts/context2a.jsonld) | [context2b.jsonld](./contexts/context2b.jsonld) | Change    |
 
 ### Results
