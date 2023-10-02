@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ExampleCredential": {
+            "@id": "https://example.com/context/#ExampleCredential",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type"
+            }
+        },
+        "ExampleSubject": {
+            "@id": "https://example.com/context/#ExampleSubject",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "name": "https://example.com/context/#givenName",
+                "familyName": "https://example.com/context/#familyName",
+                "gender": "https://example.com/context/#gender",
+                "birthCountry": "https://example.com/context/#birthCountry",
+                "birthDate": "https://example.com/context/#birthDate"
+            }
+        }
+    }
+}

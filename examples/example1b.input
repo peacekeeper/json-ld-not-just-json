@@ -1,0 +1,15 @@
+{
+  "@context" : [ "https://www.w3.org/2018/credentials/v1", "https://example.com/context1/" ],
+  "type" : [ "VerifiableCredential", "ExampleCredential" ],
+  "issuer" : "did:indy:sovrin:WRfXPg8dantKVubE3HX8pw",
+  "issuanceDate" : "2023-09-30T22:33:56Z",
+  "credentialSubject" : {
+    "type" : "ExampleSubject",
+    "id" : "did:key:z6MkoX6ucCPChSbbAFAcM8uqSnjfdBaHdhmKLy1hLBuWov9o#z6MkoX6ucCPChSbbAFAcM8uqSnjfdBaHdhmKLy1hLBuWov9o",
+    "name" : "John",
+    "familyName" : "Smith",
+    "gender" : "Male",
+    "birthCountry" : "Bahamas",
+    "birthDate" : "1958-08-17"
+  }
+}
