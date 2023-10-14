@@ -1,5 +1,7 @@
-json-ld-is-not-just-json
-========================
+json-ld-vcs-not-just-json
+=========================
+
+Article: https://medium.com/@markus.sabadello/json-ld-vcs-are-not-just-json-4488d279be43
 
 ## Example 1
 
